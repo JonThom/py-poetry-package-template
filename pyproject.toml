@@ -46,7 +46,7 @@ toml = "^0.9"
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
 pytest-cov = "^2.4"
-setuptools = "~53.0.0"
+#setuptools = "~53.0.0"
 
 [tool.poetry.scripts]
 # my-script = 'new_package:main>'
