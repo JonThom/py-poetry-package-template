@@ -34,6 +34,7 @@ python = "^3.7"  # Compatible python versions must be declared here
 toml = "^0.9"
 # Dependencies with extras
 # requests = { version = "^2.13", extras = [ "security" ] }
+setuptools = "^53.0.0"
 # grakn-client = {version = "~2.0.0a6"}
 # Python specific dependencies with prereleases allowed
 # pathlib2 = { version = "^2.2", python = "~2.7", allow-prereleases = true }
@@ -46,7 +47,7 @@ toml = "^0.9"
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
 pytest-cov = "^2.4"
-setuptools = "^53.0.0"
+
 
 [tool.poetry.scripts]
 # my-script = 'new_package:main>'
