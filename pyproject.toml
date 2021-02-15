@@ -21,12 +21,12 @@ homepage = "NEW_PACKAGE_WEBSITE_URL"
 keywords = ['keyword1']
 
 packages = [
-    { include = "new_package/*.py" },
-    { include = "new_package/data/*", format = "wheel" },
+    { include = "new_package/*.py" }, 
 ]
 
 include = [
     { path = "tests", format = "sdist" },
+    { path = "new_package/data/*", format = "wheel" },
 ]
 
 [tool.poetry.dependencies]
